@@ -17,14 +17,23 @@ This repo documents my daily problem-solving journey, covering everything from b
 
 🏗️ Structure
 📂 DSA-With-Java
+
  ┣ 📁 Arrays
+ 
  ┣ 📁 LinkedList
+ 
  ┣ 📁 Stack
+ 
  ┣ 📁 Queue
+ 
  ┣ 📁 Tree
+ 
  ┣ 📁 Graph
+ 
  ┣ 📁 Recursion
+ 
  ┗ 📁 DynamicProgramming
+ 
 
 🎯 Goals
 
