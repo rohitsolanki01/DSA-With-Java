@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class TakeUserInputAndAdd {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(Sytem.in);
-        System.out.println("Enter a First Number");
-
-        int num1 = sc.nextint();
-        System.out.println("Enter a Second Number");
-        int num2 = sc.nextint();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
         int sum = num1 + num2;
-        System.out.println("Sum of two numbers:" + sum);
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        scanner.close();
     }
 }
